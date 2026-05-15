@@ -24,4 +24,6 @@ ai-generated: true
 - `00-inbox/mcp-test.md` is a throwaway test artifact — can be deleted whenever Jay wants.
 
 ## next session should start with
-"Read maps/me.md and the memory index at ~/.claude/projects/-Users-mainmac-Documents-Second-Brain/memory/MEMORY.md, then check AI/sessions/ for the most recent summary so you have current context. Then ask me what we're working on."
+"Read CLAUDE.md and maps/me.md, then check AI/sessions/ for the most recent summary so you have current context. Then ask me what we're working on."
+
+> Note: original prompt referenced a hardcoded MCP memory path (`~/.claude/projects/-Users-mainmac-Documents-Second-Brain/memory/MEMORY.md`) that only existed on Jay's old machine. Replaced with vault-relative paths so any front-end (Claude Code, Cowork, etc.) can follow it.
